@@ -2,9 +2,9 @@
 // config.php - Configuración de la base de datos
 class Database {
     private $host = "localhost";
-    private $db_name = "tu_base_de_datos"; // Cambia por el nombre de tu BD
-    private $username = "tu_usuario";      // Cambia por tu usuario
-    private $password = "tu_contraseña";   // Cambia por tu contraseña
+    private $db_name = "booking_app"; // Cambia por el nombre de tu BD
+    private $username = "root";      // Cambia por tu usuario
+    private $password = "";   // Cambia por tu contraseña
     public $conn;
 
     public function getConnection() {
